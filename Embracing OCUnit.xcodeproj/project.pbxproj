@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3BBCFC14DF35C000E2BDB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */; };
+		5D3BBCFE14DF35C000E2BDB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */; };
+		5D3BBD0014DF35C000E2BDB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFF14DF35C000E2BDB1 /* CoreGraphics.framework */; };
+		5D3BBD0614DF35C000E2BDB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBD0414DF35C000E2BDB1 /* InfoPlist.strings */; };
+		5D3BBD0814DF35C000E2BDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD0714DF35C000E2BDB1 /* main.m */; };
+		5D3BBD1314DF35DF00E2BDB1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */; };
+		5D3BBD2914DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */; };
+		5D3BBD2A14DF364300E2BDB1 /* BTSParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */; };
+		5D3BBD3314DF36B600E2BDB1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */; };
+		5D3BBD3414DF36B600E2BDB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */; };
+		5D3BBD3514DF36B600E2BDB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */; };
+		5D3BBD3B14DF36B600E2BDB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBD3914DF36B600E2BDB1 /* InfoPlist.strings */; };
+		5D3BBD4A14DF374D00E2BDB1 /* BTSSimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD4814DF374D00E2BDB1 /* BTSSimpleTest.m */; };
+		5D3BBD4D14DF375700E2BDB1 /* BTSPreferredOrderIndexGeneratorParameterizedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD4B14DF375700E2BDB1 /* BTSPreferredOrderIndexGeneratorParameterizedTest.m */; };
+		5D3BBD5014DF376000E2BDB1 /* BTSConcurrencyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD4F14DF376000E2BDB1 /* BTSConcurrencyTest.m */; };
+		5D3BBD5114DF378300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */; };
+		5D3BBD5214DF378800E2BDB1 /* BTSParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */; };
+		5D6A5F1614E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A5F1514E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Embracing OCUnit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D3BBCFF14DF35C000E2BDB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D3BBD0314DF35C000E2BDB1 /* Embracing OCUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Embracing OCUnit-Info.plist"; sourceTree = "<group>"; };
+		5D3BBD0514DF35C000E2BDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D3BBD0714DF35C000E2BDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D3BBD0914DF35C000E2BDB1 /* Embracing OCUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Embracing OCUnit-Prefix.pch"; sourceTree = "<group>"; };
+		5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D3BBD1814DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___FILEBASENAME___.m; sourceTree = "<group>"; };
+		5D3BBD1A14DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___FILEBASENAME___.m; sourceTree = "<group>"; };
+		5D3BBD1B14DF360500E2BDB1 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		5D3BBD1C14DF360500E2BDB1 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		5D3BBD2514DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSPreferredOrderIndexGenerator.h; sourceTree = "<group>"; };
+		5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSPreferredOrderIndexGenerator.m; sourceTree = "<group>"; };
+		5D3BBD2714DF364300E2BDB1 /* BTSParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSParseOperation.h; sourceTree = "<group>"; };
+		5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSParseOperation.m; sourceTree = "<group>"; };
+		5D3BBD3214DF36B600E2BDB1 /* Logic Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Logic Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3BBD3814DF36B600E2BDB1 /* Logic Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Logic Tests-Info.plist"; sourceTree = "<group>"; };
+		5D3BBD3A14DF36B600E2BDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D3BBD3F14DF36B600E2BDB1 /* Logic Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Logic Tests-Prefix.pch"; sourceTree = "<group>"; };
+		5D3BBD4814DF374D00E2BDB1 /* BTSSimpleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSSimpleTest.m; path = "Logic Tests/BTSSimpleTest.m"; sourceTree = "<group>"; };
+		5D3BBD4B14DF375700E2BDB1 /* BTSPreferredOrderIndexGeneratorParameterizedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSPreferredOrderIndexGeneratorParameterizedTest.m; path = "Logic Tests/BTSPreferredOrderIndexGeneratorParameterizedTest.m"; sourceTree = "<group>"; };
+		5D3BBD4F14DF376000E2BDB1 /* BTSConcurrencyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSConcurrencyTest.m; path = "Logic Tests/BTSConcurrencyTest.m"; sourceTree = "<group>"; };
+		5D6A5F1514E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSPreferredOrderIndexGeneratorTest.m; path = "Logic Tests/BTSPreferredOrderIndexGeneratorTest.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3BBCF414DF35C000E2BDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BBD1314DF35DF00E2BDB1 /* SenTestingKit.framework in Frameworks */,
+				5D3BBCFC14DF35C000E2BDB1 /* UIKit.framework in Frameworks */,
+				5D3BBCFE14DF35C000E2BDB1 /* Foundation.framework in Frameworks */,
+				5D3BBD0014DF35C000E2BDB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3BBD2E14DF36B600E2BDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BBD3314DF36B600E2BDB1 /* SenTestingKit.framework in Frameworks */,
+				5D3BBD3414DF36B600E2BDB1 /* UIKit.framework in Frameworks */,
+				5D3BBD3514DF36B600E2BDB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3BBCEC14DF35C000E2BDB1 = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD0114DF35C000E2BDB1 /* Embracing OCUnit */,
+				5D3BBD3614DF36B600E2BDB1 /* Logic Tests */,
+				5D3BBD2214DF361800E2BDB1 /* Presentation Support Files */,
+				5D3BBCFA14DF35C000E2BDB1 /* Frameworks */,
+				5D3BBCF814DF35C000E2BDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3BBCF814DF35C000E2BDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */,
+				5D3BBD3214DF36B600E2BDB1 /* Logic Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3BBCFA14DF35C000E2BDB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */,
+				5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */,
+				5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */,
+				5D3BBCFF14DF35C000E2BDB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3BBD0114DF35C000E2BDB1 /* Embracing OCUnit */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD2B14DF364C00E2BDB1 /* Preferred Order Index Generator */,
+				5D3BBD2C14DF365C00E2BDB1 /* Concurrency */,
+				5D3BBD0214DF35C000E2BDB1 /* Supporting Files */,
+			);
+			path = "Embracing OCUnit";
+			sourceTree = "<group>";
+		};
+		5D3BBD0214DF35C000E2BDB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD0314DF35C000E2BDB1 /* Embracing OCUnit-Info.plist */,
+				5D3BBD0414DF35C000E2BDB1 /* InfoPlist.strings */,
+				5D3BBD0714DF35C000E2BDB1 /* main.m */,
+				5D3BBD0914DF35C000E2BDB1 /* Embracing OCUnit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D3BBD1414DF360500E2BDB1 /* Custom File Templates */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1514DF360500E2BDB1 /* Unit Testing */,
+			);
+			path = "Custom File Templates";
+			sourceTree = "<group>";
+		};
+		5D3BBD1514DF360500E2BDB1 /* Unit Testing */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1614DF360500E2BDB1 /* OCUnit test case class.xctemplate */,
+			);
+			path = "Unit Testing";
+			sourceTree = "<group>";
+		};
+		5D3BBD1614DF360500E2BDB1 /* OCUnit test case class.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1714DF360500E2BDB1 /* Application */,
+				5D3BBD1914DF360500E2BDB1 /* Logic */,
+				5D3BBD1B14DF360500E2BDB1 /* TemplateIcon.icns */,
+				5D3BBD1C14DF360500E2BDB1 /* TemplateInfo.plist */,
+			);
+			path = "OCUnit test case class.xctemplate";
+			sourceTree = "<group>";
+		};
+		5D3BBD1714DF360500E2BDB1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1814DF360500E2BDB1 /* ___FILEBASENAME___.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5D3BBD1914DF360500E2BDB1 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1A14DF360500E2BDB1 /* ___FILEBASENAME___.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		5D3BBD2214DF361800E2BDB1 /* Presentation Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD1414DF360500E2BDB1 /* Custom File Templates */,
+			);
+			name = "Presentation Support Files";
+			sourceTree = "<group>";
+		};
+		5D3BBD2B14DF364C00E2BDB1 /* Preferred Order Index Generator */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD2514DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.h */,
+				5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */,
+			);
+			name = "Preferred Order Index Generator";
+			sourceTree = "<group>";
+		};
+		5D3BBD2C14DF365C00E2BDB1 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD2714DF364300E2BDB1 /* BTSParseOperation.h */,
+				5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */,
+			);
+			name = Concurrency;
+			sourceTree = "<group>";
+		};
+		5D3BBD3614DF36B600E2BDB1 /* Logic Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD4614DF372B00E2BDB1 /* Simple */,
+				5D3BBD4514DF372000E2BDB1 /* Preferred Order Index Generator */,
+				5D3BBD4414DF370D00E2BDB1 /* Concurrency */,
+				5D3BBD3714DF36B600E2BDB1 /* Supporting Files */,
+			);
+			path = "Logic Tests";
+			sourceTree = "<group>";
+		};
+		5D3BBD3714DF36B600E2BDB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD3814DF36B600E2BDB1 /* Logic Tests-Info.plist */,
+				5D3BBD3914DF36B600E2BDB1 /* InfoPlist.strings */,
+				5D3BBD3F14DF36B600E2BDB1 /* Logic Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D3BBD4414DF370D00E2BDB1 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD4F14DF376000E2BDB1 /* BTSConcurrencyTest.m */,
+			);
+			name = Concurrency;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5D3BBD4514DF372000E2BDB1 /* Preferred Order Index Generator */ = {
+			isa = PBXGroup;
+			children = (
+				5D6A5F1514E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m */,
+				5D3BBD4B14DF375700E2BDB1 /* BTSPreferredOrderIndexGeneratorParameterizedTest.m */,
+			);
+			name = "Preferred Order Index Generator";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5D3BBD4614DF372B00E2BDB1 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				5D3BBD4814DF374D00E2BDB1 /* BTSSimpleTest.m */,
+			);
+			name = Simple;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3BBCF614DF35C000E2BDB1 /* Embracing OCUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3BBD0F14DF35C000E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing OCUnit" */;
+			buildPhases = (
+				5D3BBCF314DF35C000E2BDB1 /* Sources */,
+				5D3BBCF414DF35C000E2BDB1 /* Frameworks */,
+				5D3BBCF514DF35C000E2BDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Embracing OCUnit";
+			productName = "Embracing OCUnit";
+			productReference = 5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D3BBD3114DF36B600E2BDB1 /* Logic Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3BBD4014DF36B600E2BDB1 /* Build configuration list for PBXNativeTarget "Logic Tests" */;
+			buildPhases = (
+				5D3BBD2D14DF36B600E2BDB1 /* Sources */,
+				5D3BBD2E14DF36B600E2BDB1 /* Frameworks */,
+				5D3BBD2F14DF36B600E2BDB1 /* Resources */,
+				5D3BBD3014DF36B600E2BDB1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Logic Tests";
+			productName = "Logic Tests";
+			productReference = 5D3BBD3214DF36B600E2BDB1 /* Logic Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3BBCEE14DF35C000E2BDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Brian Coyner";
+			};
+			buildConfigurationList = 5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing OCUnit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D3BBCEC14DF35C000E2BDB1;
+			productRefGroup = 5D3BBCF814DF35C000E2BDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3BBCF614DF35C000E2BDB1 /* Embracing OCUnit */,
+				5D3BBD3114DF36B600E2BDB1 /* Logic Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3BBCF514DF35C000E2BDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BBD0614DF35C000E2BDB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3BBD2F14DF36B600E2BDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BBD3B14DF36B600E2BDB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D3BBD3014DF36B600E2BDB1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3BBCF314DF35C000E2BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BBD0814DF35C000E2BDB1 /* main.m in Sources */,
+				5D3BBD2914DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */,
+				5D3BBD2A14DF364300E2BDB1 /* BTSParseOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3BBD2D14DF36B600E2BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3BBD4A14DF374D00E2BDB1 /* BTSSimpleTest.m in Sources */,
+				5D3BBD4D14DF375700E2BDB1 /* BTSPreferredOrderIndexGeneratorParameterizedTest.m in Sources */,
+				5D3BBD5014DF376000E2BDB1 /* BTSConcurrencyTest.m in Sources */,
+				5D3BBD5114DF378300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */,
+				5D3BBD5214DF378800E2BDB1 /* BTSParseOperation.m in Sources */,
+				5D6A5F1614E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D3BBD0414DF35C000E2BDB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3BBD0514DF35C000E2BDB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D3BBD3914DF36B600E2BDB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3BBD3A14DF36B600E2BDB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3BBD0D14DF35C000E2BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5D3BBD0E14DF35C000E2BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3BBD1014DF35C000E2BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Embracing OCUnit/Embracing OCUnit-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Embracing OCUnit/Embracing OCUnit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D3BBD1114DF35C000E2BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Embracing OCUnit/Embracing OCUnit-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INFOPLIST_FILE = "Embracing OCUnit/Embracing OCUnit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D3BBD4114DF36B600E2BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logic Tests/Logic Tests-Prefix.pch";
+				INFOPLIST_FILE = "Logic Tests/Logic Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5D3BBD4214DF36B600E2BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Logic Tests/Logic Tests-Prefix.pch";
+				INFOPLIST_FILE = "Logic Tests/Logic Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing OCUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3BBD0D14DF35C000E2BDB1 /* Debug */,
+				5D3BBD0E14DF35C000E2BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3BBD0F14DF35C000E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing OCUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3BBD1014DF35C000E2BDB1 /* Debug */,
+				5D3BBD1114DF35C000E2BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3BBD4014DF36B600E2BDB1 /* Build configuration list for PBXNativeTarget "Logic Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3BBD4114DF36B600E2BDB1 /* Debug */,
+				5D3BBD4214DF36B600E2BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3BBCEE14DF35C000E2BDB1 /* Project object */;
+}
