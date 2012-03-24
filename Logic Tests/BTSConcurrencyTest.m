@@ -71,4 +71,35 @@
     STAssertEqualObjects(expectedValues, parsedStrings, @"Parsed Strings");
 }
 
+- (void)testConcurrentParser_BlockDelegationManuallyStartParserAndSignalsCompletion
+{
+    NSOperationQueue *concurrentQueue = [[NSOperationQueue alloc] init];
+
+    NSString *input = @"Hello\nMy Name Is\nBrian Coyner";
+    BTSParseOperation *parser = [[BTSParseOperation alloc] initWithString:input];
+
+    NSMutableArray *parsedStrings = [NSMutableArray arrayWithCapacity:3];
+    [parser setLineParsedBlock:^(NSString *line, NSUInteger lineNumber) {
+        [parsedStrings addObject:line];
+    }];
+
+    // In this example, we assume that the 'concurrentQueue' cannot be turned into a 'serial queue'. Therefore,
+    // we simply start the parser manually and signal when the operation completes. This all happens in a single
+    // operation (that may or may not execute concurrently with other tasks).
+    dispatch_semaphore_t latch = dispatch_semaphore_create(0);
+
+    [concurrentQueue addOperationWithBlock:^{
+        [parser start];
+        dispatch_semaphore_signal(latch);
+    }];
+
+    long success = dispatch_semaphore_wait(latch, dispatch_walltime(DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC));
+    dispatch_release(latch);
+
+    STAssertEquals(0L, success, @"Background task did not finish in time.");
+
+    NSArray *expectedValues = [NSArray arrayWithObjects:@"Hello", @"My Name Is", @"Brian Coyner", nil];
+    STAssertEqualObjects(expectedValues, parsedStrings, @"Parsed Strings");
+}
+
 @end

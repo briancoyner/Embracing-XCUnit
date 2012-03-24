@@ -8,8 +8,6 @@
     NSString *_stringToParse;
 }
 
-- (void)doMain;
-
 @end
 
 @implementation BTSParseOperation
