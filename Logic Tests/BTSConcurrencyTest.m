@@ -6,7 +6,6 @@
 #import "BTSParseOperation.h"
 
 @interface BTSConcurrencyTest : SenTestCase
-
 @end
 
 @implementation BTSConcurrencyTest

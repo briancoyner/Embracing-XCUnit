@@ -23,10 +23,6 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
     NSException *_expectedException;
 }
 
-// Method to dynamically build a "Parameterized" test for every "test" method found in this test case with a single set of input data
-+ (void)addTestWithExpectedValue:(u_int64_t)expectedValue date:(NSDate *)date expectedException:(NSException *)expectedException toTestSuite:(SenTestSuite *)testSuite;
-
-
 @end
 
 @implementation BTSPreferredOrderIndexGeneratorParameterizedTest
@@ -78,7 +74,6 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
     return testSuite;
 }
 
-
 + (void)addTestWithExpectedValue:(u_int64_t)expectedValue date:(NSDate *)date expectedException:(NSException *)expectedException toTestSuite:(SenTestSuite *)testSuite
 {
     NSArray *testInvocations = [self testInvocations];
@@ -91,7 +86,6 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
         [testSuite addTest:test];
     }
 }
-
 
 #pragma mark Test Methods
 

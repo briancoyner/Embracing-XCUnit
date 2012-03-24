@@ -12,7 +12,6 @@
 		5D3BBD0014DF35C000E2BDB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFF14DF35C000E2BDB1 /* CoreGraphics.framework */; };
 		5D3BBD0614DF35C000E2BDB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBD0414DF35C000E2BDB1 /* InfoPlist.strings */; };
 		5D3BBD0814DF35C000E2BDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD0714DF35C000E2BDB1 /* main.m */; };
-		5D3BBD1314DF35DF00E2BDB1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */; };
 		5D3BBD2914DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */; };
 		5D3BBD2A14DF364300E2BDB1 /* BTSParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */; };
 		5D3BBD3314DF36B600E2BDB1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */; };
@@ -37,8 +36,8 @@
 		5D3BBD0714DF35C000E2BDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D3BBD0914DF35C000E2BDB1 /* Embracing OCUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Embracing OCUnit-Prefix.pch"; sourceTree = "<group>"; };
 		5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5D3BBD1814DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___FILEBASENAME___.m; sourceTree = "<group>"; };
-		5D3BBD1A14DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ___FILEBASENAME___.m; sourceTree = "<group>"; };
+		5D3BBD1814DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
+		5D3BBD1A14DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		5D3BBD1B14DF360500E2BDB1 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
 		5D3BBD1C14DF360500E2BDB1 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
 		5D3BBD2514DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSPreferredOrderIndexGenerator.h; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3BBD1314DF35DF00E2BDB1 /* SenTestingKit.framework in Frameworks */,
 				5D3BBCFC14DF35C000E2BDB1 /* UIKit.framework in Frameworks */,
 				5D3BBCFE14DF35C000E2BDB1 /* Foundation.framework in Frameworks */,
 				5D3BBD0014DF35C000E2BDB1 /* CoreGraphics.framework in Frameworks */,
@@ -294,7 +292,7 @@
 		5D3BBCEE14DF35C000E2BDB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Brian Coyner";
 			};
 			buildConfigurationList = 5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing OCUnit" */;
