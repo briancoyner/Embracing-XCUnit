@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D3BBCF614DF35C000E2BDB1"
                BuildableName = "Embracing OCUnit.app"
-               BlueprintName = "Embracing OCUnit"
-               ReferencedContainer = "container:Embracing OCUnit.xcodeproj">
+               BlueprintName = "Embracing XCUnit"
+               ReferencedContainer = "container:Embracing XCUnit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D3BBD3114DF36B600E2BDB1"
                BuildableName = "Logic Tests.xctest"
-               BlueprintName = "Logic Tests"
-               ReferencedContainer = "container:Embracing OCUnit.xcodeproj">
+               BlueprintName = "Embracing XCUnit Tests"
+               ReferencedContainer = "container:Embracing XCUnit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D3BBCF614DF35C000E2BDB1"
             BuildableName = "Embracing OCUnit.app"
-            BlueprintName = "Embracing OCUnit"
-            ReferencedContainer = "container:Embracing OCUnit.xcodeproj">
+            BlueprintName = "Embracing XCUnit"
+            ReferencedContainer = "container:Embracing XCUnit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D3BBCF614DF35C000E2BDB1"
             BuildableName = "Embracing OCUnit.app"
-            BlueprintName = "Embracing OCUnit"
-            ReferencedContainer = "container:Embracing OCUnit.xcodeproj">
+            BlueprintName = "Embracing XCUnit"
+            ReferencedContainer = "container:Embracing XCUnit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D3BBCF614DF35C000E2BDB1"
             BuildableName = "Embracing OCUnit.app"
-            BlueprintName = "Embracing OCUnit"
-            ReferencedContainer = "container:Embracing OCUnit.xcodeproj">
+            BlueprintName = "Embracing XCUnit"
+            ReferencedContainer = "container:Embracing XCUnit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

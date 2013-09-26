@@ -30,7 +30,6 @@
     [queue addOperation:parser];
 
     long success = dispatch_semaphore_wait(latch, dispatch_walltime(DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC));
-    dispatch_release(latch);
 
     XCTAssertEqual(0L, success, @"Background task did not finish in time.");
 
@@ -62,7 +61,6 @@
     }];
 
     long success = dispatch_semaphore_wait(latch, dispatch_walltime(DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC));
-    dispatch_release(latch);
 
     XCTAssertEqual(0L, success, @"Background task did not finish in time.");
 
@@ -93,8 +91,7 @@
     }];
 
     long success = dispatch_semaphore_wait(latch, dispatch_walltime(DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC));
-    dispatch_release(latch);
-
+   
     XCTAssertEqual(0L, success, @"Background task did not finish in time.");
 
     NSArray *expectedValues = [NSArray arrayWithObjects:@"Hello", @"My Name Is", @"Brian Coyner", nil];

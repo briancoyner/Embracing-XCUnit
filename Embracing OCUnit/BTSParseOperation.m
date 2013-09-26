@@ -31,7 +31,7 @@
             [self doMain];
         }
     }
-    @catch (...) {
+    @catch (NSException *exception) {
         // ignore for the demo.
     }
 }

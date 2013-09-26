@@ -23,17 +23,18 @@
 		5D3BBD5114DF378300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */; };
 		5D3BBD5214DF378800E2BDB1 /* BTSParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */; };
 		5D6A5F1614E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A5F1514E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m */; };
+		5D86995117F4F4A5006D39B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D86995017F4F4A5006D39B5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Embracing OCUnit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3BBCF714DF35C000E2BDB1 /* Embracing XCUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Embracing XCUnit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D3BBCFF14DF35C000E2BDB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5D3BBD0314DF35C000E2BDB1 /* Embracing OCUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Embracing OCUnit-Info.plist"; sourceTree = "<group>"; };
+		5D3BBD0314DF35C000E2BDB1 /* Embracing XCUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Embracing XCUnit-Info.plist"; sourceTree = "<group>"; };
 		5D3BBD0514DF35C000E2BDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D3BBD0714DF35C000E2BDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D3BBD0914DF35C000E2BDB1 /* Embracing OCUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Embracing OCUnit-Prefix.pch"; sourceTree = "<group>"; };
+		5D3BBD0914DF35C000E2BDB1 /* Embracing XCUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Embracing XCUnit-Prefix.pch"; sourceTree = "<group>"; };
 		5D3BBD1814DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		5D3BBD1A14DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		5D3BBD1B14DF360500E2BDB1 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		5D3BBD4B14DF375700E2BDB1 /* BTSPreferredOrderIndexGeneratorParameterizedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSPreferredOrderIndexGeneratorParameterizedTest.m; path = "Logic Tests/BTSPreferredOrderIndexGeneratorParameterizedTest.m"; sourceTree = "<group>"; };
 		5D3BBD4F14DF376000E2BDB1 /* BTSConcurrencyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSConcurrencyTest.m; path = "Logic Tests/BTSConcurrencyTest.m"; sourceTree = "<group>"; };
 		5D6A5F1514E1CCF900557FC8 /* BTSPreferredOrderIndexGeneratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTSPreferredOrderIndexGeneratorTest.m; path = "Logic Tests/BTSPreferredOrderIndexGeneratorTest.m"; sourceTree = "<group>"; };
+		5D86995017F4F4A5006D39B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		5D3BBCF814DF35C000E2BDB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */,
+				5D3BBCF714DF35C000E2BDB1 /* Embracing XCUnit.app */,
 				5D3BBD3214DF36B600E2BDB1 /* Logic Tests.xctest */,
 			);
 			name = Products;
@@ -118,10 +120,10 @@
 		5D3BBD0214DF35C000E2BDB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D3BBD0314DF35C000E2BDB1 /* Embracing OCUnit-Info.plist */,
+				5D3BBD0314DF35C000E2BDB1 /* Embracing XCUnit-Info.plist */,
 				5D3BBD0414DF35C000E2BDB1 /* InfoPlist.strings */,
 				5D3BBD0714DF35C000E2BDB1 /* main.m */,
-				5D3BBD0914DF35C000E2BDB1 /* Embracing OCUnit-Prefix.pch */,
+				5D3BBD0914DF35C000E2BDB1 /* Embracing XCUnit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,6 +211,7 @@
 		5D3BBD3714DF36B600E2BDB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D86995017F4F4A5006D39B5 /* Default-568h@2x.png */,
 				5D3BBD3814DF36B600E2BDB1 /* Logic Tests-Info.plist */,
 				5D3BBD3914DF36B600E2BDB1 /* InfoPlist.strings */,
 				5D3BBD3F14DF36B600E2BDB1 /* Logic Tests-Prefix.pch */,
@@ -247,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D3BBCF614DF35C000E2BDB1 /* Embracing OCUnit */ = {
+		5D3BBCF614DF35C000E2BDB1 /* Embracing XCUnit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D3BBD0F14DF35C000E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing OCUnit" */;
+			buildConfigurationList = 5D3BBD0F14DF35C000E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing XCUnit" */;
 			buildPhases = (
 				5D3BBCF314DF35C000E2BDB1 /* Sources */,
 				5D3BBCF414DF35C000E2BDB1 /* Frameworks */,
@@ -259,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = "Embracing OCUnit";
+			name = "Embracing XCUnit";
 			productName = "Embracing OCUnit";
-			productReference = 5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */;
+			productReference = 5D3BBCF714DF35C000E2BDB1 /* Embracing XCUnit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D3BBD3114DF36B600E2BDB1 /* Logic Tests */ = {
+		5D3BBD3114DF36B600E2BDB1 /* Embracing XCUnit Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D3BBD4014DF36B600E2BDB1 /* Build configuration list for PBXNativeTarget "Logic Tests" */;
+			buildConfigurationList = 5D3BBD4014DF36B600E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing XCUnit Tests" */;
 			buildPhases = (
 				5D3BBD2D14DF36B600E2BDB1 /* Sources */,
 				5D3BBD2E14DF36B600E2BDB1 /* Frameworks */,
@@ -277,7 +280,7 @@
 			);
 			dependencies = (
 			);
-			name = "Logic Tests";
+			name = "Embracing XCUnit Tests";
 			productName = "Logic Tests";
 			productReference = 5D3BBD3214DF36B600E2BDB1 /* Logic Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -290,8 +293,13 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "Brian Coyner";
+				TargetAttributes = {
+					5D3BBD3114DF36B600E2BDB1 = {
+						TestTargetID = 5D3BBCF614DF35C000E2BDB1;
+					};
+				};
 			};
-			buildConfigurationList = 5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing OCUnit" */;
+			buildConfigurationList = 5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing XCUnit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -303,8 +311,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D3BBCF614DF35C000E2BDB1 /* Embracing OCUnit */,
-				5D3BBD3114DF36B600E2BDB1 /* Logic Tests */,
+				5D3BBCF614DF35C000E2BDB1 /* Embracing XCUnit */,
+				5D3BBD3114DF36B600E2BDB1 /* Embracing XCUnit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3BBD0614DF35C000E2BDB1 /* InfoPlist.strings in Resources */,
+				5D86995117F4F4A5006D39B5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,46 +402,46 @@
 		5D3BBD0D14DF35C000E2BDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		5D3BBD0E14DF35C000E2BDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -446,7 +455,7 @@
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Embracing OCUnit/Embracing OCUnit-Prefix.pch";
+				GCC_PREFIX_HEADER = "Embracing OCUnit/Embracing XCUnit-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
@@ -456,8 +465,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
-				INFOPLIST_FILE = "Embracing OCUnit/Embracing OCUnit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Embracing OCUnit/Embracing XCUnit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Embracing XCUnit";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -473,7 +483,7 @@
 					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Embracing OCUnit/Embracing OCUnit-Prefix.pch";
+				GCC_PREFIX_HEADER = "Embracing OCUnit/Embracing XCUnit-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
@@ -483,8 +493,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
-				INFOPLIST_FILE = "Embracing OCUnit/Embracing OCUnit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Embracing OCUnit/Embracing XCUnit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Embracing XCUnit";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -494,29 +505,33 @@
 		5D3BBD4114DF36B600E2BDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Embracing XCUnit.app/Embracing XCUnit";
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Logic Tests/Logic Tests-Prefix.pch";
 				INFOPLIST_FILE = "Logic Tests/Logic Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
 		5D3BBD4214DF36B600E2BDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Embracing XCUnit.app/Embracing XCUnit";
 				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Logic Tests/Logic Tests-Prefix.pch";
 				INFOPLIST_FILE = "Logic Tests/Logic Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing OCUnit" */ = {
+		5D3BBCF114DF35C000E2BDB1 /* Build configuration list for PBXProject "Embracing XCUnit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3BBD0D14DF35C000E2BDB1 /* Debug */,
@@ -525,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D3BBD0F14DF35C000E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing OCUnit" */ = {
+		5D3BBD0F14DF35C000E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing XCUnit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3BBD1014DF35C000E2BDB1 /* Debug */,
@@ -534,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D3BBD4014DF36B600E2BDB1 /* Build configuration list for PBXNativeTarget "Logic Tests" */ = {
+		5D3BBD4014DF36B600E2BDB1 /* Build configuration list for PBXNativeTarget "Embracing XCUnit Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D3BBD4114DF36B600E2BDB1 /* Debug */,

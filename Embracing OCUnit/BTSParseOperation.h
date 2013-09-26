@@ -10,8 +10,6 @@ typedef void(^BTSParseOperationParseBlock)(NSString *line, NSUInteger lineNumber
 
 - (id)initWithString:(NSString *)string;
 
-@property (nonatomic, copy) BTSParseOperationParseBlock lineParsedBlock;
-
+@property (nonatomic, copy, readwrite) BTSParseOperationParseBlock lineParsedBlock;
 
 @end
-
