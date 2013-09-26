@@ -2,7 +2,7 @@
 //  Copyright (c) 2012 Brian Coyner. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import "BTSPreferredOrderIndexGenerator.h"
 
 static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
@@ -15,7 +15,7 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
     return [calendar dateFromComponents:dateComponents];
 }
 
-@interface BTSPreferredOrderIndexGeneratorParameterizedTest : SenTestCase {
+@interface BTSPreferredOrderIndexGeneratorParameterizedTest : XCTestCase {
     BTSPreferredOrderIndexGenerator *_generator;
 
     u_int64_t _expectedValue;
@@ -55,7 +55,7 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
 #pragma mark Default Suite
 + (id)defaultTestSuite
 {
-    SenTestSuite *testSuite = [[SenTestSuite alloc] initWithName:NSStringFromClass(self)];
+    XCTestSuite *testSuite = [[XCTestSuite alloc] initWithName:NSStringFromClass(self)];
     [self addTestWithExpectedValue:201001010000000000ul date:BTSCreateDate(2010, 1, 1) expectedException:nil toTestSuite:testSuite];
     [self addTestWithExpectedValue:201001090000000000ul date:BTSCreateDate(2010, 1, 9) expectedException:nil toTestSuite:testSuite];
     [self addTestWithExpectedValue:201001100000000000ul date:BTSCreateDate(2010, 1, 10) expectedException:nil toTestSuite:testSuite];
@@ -74,11 +74,11 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
     return testSuite;
 }
 
-+ (void)addTestWithExpectedValue:(u_int64_t)expectedValue date:(NSDate *)date expectedException:(NSException *)expectedException toTestSuite:(SenTestSuite *)testSuite
++ (void)addTestWithExpectedValue:(u_int64_t)expectedValue date:(NSDate *)date expectedException:(NSException *)expectedException toTestSuite:(XCTestSuite *)testSuite
 {
     NSArray *testInvocations = [self testInvocations];
     for (NSInvocation *testInvocation in testInvocations) {
-        SenTestCase *test = [[BTSPreferredOrderIndexGeneratorParameterizedTest alloc]
+        XCTestCase *test = [[BTSPreferredOrderIndexGeneratorParameterizedTest alloc]
                 initWithInvocation:testInvocation
                      expectedValue:expectedValue
                               date:date
@@ -92,17 +92,17 @@ static NSDate *BTSCreateDate(NSInteger year, NSInteger month, NSInteger day) {
 - (void)testGenerateFromDate
 {
     if (_expectedException == nil) {
-        STAssertEquals(_expectedValue, [_generator generateFromDate:_date], @"Generated Preferred Order Index");
+        XCTAssertEqual(_expectedValue, [_generator generateFromDate:_date], @"Generated Preferred Order Index");
     } else {
         @try {
             [_generator generateFromDate:_date];
-            STFail(@"Generator should raise exception.");
+            XCTFail(@"Generator should raise exception.");
         }
         @catch (NSException *exception) {
             // You should test the exception however it makes sense in your application...
-            STAssertEqualObjects([_expectedException class], [exception class], @"Exception Class.");
-            STAssertEqualObjects([_expectedException name], [exception name], @"Exception Name.");
-            STAssertEqualObjects([_expectedException reason], [exception reason], @"Exception reason.");
+            XCTAssertEqualObjects([_expectedException class], [exception class], @"Exception Class.");
+            XCTAssertEqualObjects([_expectedException name], [exception name], @"Exception Name.");
+            XCTAssertEqualObjects([_expectedException reason], [exception reason], @"Exception reason.");
         }
     }
 }

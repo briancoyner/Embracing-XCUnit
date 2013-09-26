@@ -2,9 +2,9 @@
 //  Copyright (c) 2012 Brian Coyner. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface BTSSimpleTest : SenTestCase
+@interface BTSSimpleTest : XCTestCase
 @end
 
 @implementation BTSSimpleTest
@@ -15,7 +15,7 @@
     int b = 1;
     int sum = a + b;
     
-    STAssertTrue(sum == 2, @"Bad Day, eh?");
+    XCTAssertTrue(sum == 2, @"Bad Day, eh?");
 }
 
 @end

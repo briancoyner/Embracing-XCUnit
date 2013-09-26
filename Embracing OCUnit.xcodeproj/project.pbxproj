@@ -14,7 +14,6 @@
 		5D3BBD0814DF35C000E2BDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD0714DF35C000E2BDB1 /* main.m */; };
 		5D3BBD2914DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */; };
 		5D3BBD2A14DF364300E2BDB1 /* BTSParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */; };
-		5D3BBD3314DF36B600E2BDB1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */; };
 		5D3BBD3414DF36B600E2BDB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */; };
 		5D3BBD3514DF36B600E2BDB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */; };
 		5D3BBD3B14DF36B600E2BDB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D3BBD3914DF36B600E2BDB1 /* InfoPlist.strings */; };
@@ -35,7 +34,6 @@
 		5D3BBD0514DF35C000E2BDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D3BBD0714DF35C000E2BDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D3BBD0914DF35C000E2BDB1 /* Embracing OCUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Embracing OCUnit-Prefix.pch"; sourceTree = "<group>"; };
-		5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5D3BBD1814DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		5D3BBD1A14DF360500E2BDB1 /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
 		5D3BBD1B14DF360500E2BDB1 /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
@@ -44,7 +42,7 @@
 		5D3BBD2614DF364300E2BDB1 /* BTSPreferredOrderIndexGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSPreferredOrderIndexGenerator.m; sourceTree = "<group>"; };
 		5D3BBD2714DF364300E2BDB1 /* BTSParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSParseOperation.h; sourceTree = "<group>"; };
 		5D3BBD2814DF364300E2BDB1 /* BTSParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSParseOperation.m; sourceTree = "<group>"; };
-		5D3BBD3214DF36B600E2BDB1 /* Logic Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Logic Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3BBD3214DF36B600E2BDB1 /* Logic Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Logic Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3BBD3814DF36B600E2BDB1 /* Logic Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Logic Tests-Info.plist"; sourceTree = "<group>"; };
 		5D3BBD3A14DF36B600E2BDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D3BBD3F14DF36B600E2BDB1 /* Logic Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Logic Tests-Prefix.pch"; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3BBD3314DF36B600E2BDB1 /* SenTestingKit.framework in Frameworks */,
 				5D3BBD3414DF36B600E2BDB1 /* UIKit.framework in Frameworks */,
 				5D3BBD3514DF36B600E2BDB1 /* Foundation.framework in Frameworks */,
 			);
@@ -93,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				5D3BBCF714DF35C000E2BDB1 /* Embracing OCUnit.app */,
-				5D3BBD3214DF36B600E2BDB1 /* Logic Tests.octest */,
+				5D3BBD3214DF36B600E2BDB1 /* Logic Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +98,6 @@
 		5D3BBCFA14DF35C000E2BDB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D3BBD1214DF35DF00E2BDB1 /* SenTestingKit.framework */,
 				5D3BBCFB14DF35C000E2BDB1 /* UIKit.framework */,
 				5D3BBCFD14DF35C000E2BDB1 /* Foundation.framework */,
 				5D3BBCFF14DF35C000E2BDB1 /* CoreGraphics.framework */,
@@ -283,8 +279,8 @@
 			);
 			name = "Logic Tests";
 			productName = "Logic Tests";
-			productReference = 5D3BBD3214DF36B600E2BDB1 /* Logic Tests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 5D3BBD3214DF36B600E2BDB1 /* Logic Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -463,6 +459,7 @@
 				INFOPLIST_FILE = "Embracing OCUnit/Embracing OCUnit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -489,6 +486,7 @@
 				INFOPLIST_FILE = "Embracing OCUnit/Embracing OCUnit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -496,32 +494,22 @@
 		5D3BBD4114DF36B600E2BDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Logic Tests/Logic Tests-Prefix.pch";
 				INFOPLIST_FILE = "Logic Tests/Logic Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		5D3BBD4214DF36B600E2BDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SDKROOT)/Developer/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Logic Tests/Logic Tests-Prefix.pch";
 				INFOPLIST_FILE = "Logic Tests/Logic Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
